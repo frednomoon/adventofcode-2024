@@ -1,0 +1,11 @@
+{
+  "name": "adventofcode",
+  "module": "d1.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
