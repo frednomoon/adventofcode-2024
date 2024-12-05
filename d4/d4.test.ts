@@ -63,6 +63,7 @@ describe("checkCellXMAS", () => {
     expect(result.downRight).toEqual(["7", "4", "1", "7"])
     expect(result.downLeft).toEqual(["7", "2"])
     expect(result.upRight).toEqual(["7", "3"])
+    // @ts-expect-error
     expect(result.upLeft).toEqual(["7", "1", undefined, undefined])
   })
 })
